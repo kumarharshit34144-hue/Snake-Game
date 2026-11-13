@@ -7,7 +7,7 @@
 
 body {
     background: #151515;
-    color: rgb(109, 16, 16);
+    color: rgb(32, 125, 225);
     font-family: Arial, sans-serif;
 
     display: flex;
@@ -39,7 +39,7 @@ h1 {
     width: min(400px, 100%);
     aspect-ratio: 1;
     background: #222;
-    border: 3px solid #4ade80;
+    border: 3px solid #19ccec;
     margin: auto;
     position: relative;
     overflow: hidden;
@@ -48,7 +48,7 @@ h1 {
 .snake-part {
     width: 4%;
     height: 4%;
-    background: #4ade80;
+    background: #1e95df;
     position: absolute;
     border: 1px solid #222;
     border-radius: 3px;
@@ -61,14 +61,14 @@ h1 {
 #food {
     width: 4%;
     height: 4%;
-    background: #ef4444;
+    background: #169afe;
     border-radius: 50%;
     position: absolute;
 }
 
 #message {
     margin: 18px 0;
-    color: #facc15;
+    color: #17aff0;
     font-size: 18px;
 }
 
@@ -89,7 +89,7 @@ button {
 }
 
 button:hover {
-    background: #15803d;
+    background: #16baec;
 }
 
 .instructions {
