@@ -1,38 +1,77 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Snake Game</title>
+
     <link rel="stylesheet" href="snake.css">
     <script src="snake.js" defer></script>
 </head>
+
 <body>
 
     <div class="game-container">
 
         <h1>🐍 Snake Game</h1>
 
+        <!-- Score Board -->
         <div class="score-board">
+
             <h3>Score: <span id="score">0</span></h3>
-            <h3>High Score: <span id="highScore">0</span></h3>
+
+            <h3>Best: <span id="highScore">0</span></h3>
+
         </div>
 
+        <!-- Game Board -->
         <div id="game-board">
-            <div id="snake"></div>
+
             <div id="food"></div>
+
         </div>
 
         <p id="message">Press Start to Play!</p>
 
+        <!-- Game Buttons -->
         <div class="buttons">
+
             <button id="startBtn">Start Game</button>
+
             <button id="pauseBtn">Pause</button>
+
+        </div>
+
+        <!-- Mobile Controls -->
+        <div class="mobile-controls">
+
+            <div class="control-row">
+
+                <button class="direction-btn"
+                    data-direction="up">⬆</button>
+
+            </div>
+
+            <div class="control-row">
+
+                <button class="direction-btn"
+                    data-direction="left">⬅</button>
+
+                <button class="direction-btn"
+                    data-direction="down">⬇</button>
+
+                <button class="direction-btn"
+                    data-direction="right">➡</button>
+
+            </div>
+
         </div>
 
         <p class="instructions">
-            Use ⬆ ⬇ ⬅ ➡ arrow keys to move
+            Use arrow keys, touch buttons or swipe to move.
         </p>
 
     </div>
